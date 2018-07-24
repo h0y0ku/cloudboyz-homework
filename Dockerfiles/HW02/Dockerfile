@@ -1,3 +1,4 @@
 FROM nginx
-COPY index.html /home/learn/GIT-Repos/cloudboyz-homework/Dockerfiles/HW02/
+COPY index.html /usr/share/nginx/html
+EXPOSE 80
 EXPOSE 443
